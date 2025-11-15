@@ -1,0 +1,14 @@
+commands for Django Projects
+to setup environment variables:
+    python -m pip install --user virtualenv
+1. installing Django:
+    pip install Django
+2. Creating Django Projects:
+    django-admin startproject projectname
+3. Running Django Project:
+    python manage.py runserver
+4. Creating Django Apps:
+    python manage.py startapp appname
+5. Making Migrations:
+    python manage.py makemigrations
+
